@@ -117,7 +117,7 @@ class _RelayWorker {
   Future<void> _shutdown() async {
     _stopCall();
     try {
-      await _haptics.close();
+      _haptics.close();
     } catch (_) {}
     try {
       await FitbitAir.keepLinkWarm(false);
