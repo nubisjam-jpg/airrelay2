@@ -1,0 +1,15 @@
+name: air_relay_kr
+description: 카카오톡 메시지와 전화 수신을 Fitbit Air 진동으로 전달하는 앱
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fitbit_air: ^0.2.0
+
+flutter:
+  uses-material-design: true
